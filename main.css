@@ -13,7 +13,7 @@
     --blue: #164bc2;
     --light: #793d33;
     --cream: #b58d69;
-
+    --dark:#080c12ff;
 }
 
 /*PREREQUISITES*/
@@ -91,7 +91,7 @@ html{
 
 /*BODY*/
 body{
-    background-color: #000;
+    background-color: var(--dark);
     -webkit-user-select: none;
 }
 
