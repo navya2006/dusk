@@ -1,0 +1,151 @@
+/*COLOUR PALETTE*/
+:root {
+    --one: #fff;
+    --two: #000;
+    --three: #f9429e;
+    --four: #1834f5;
+    --five: #bb00fa;
+    --six: #B7E9F7;
+    --seven: #d9d6d0;
+    --eight: #d1568f;
+    --nine: #405fc7;
+
+    --blue: #164bc2;
+    --light: #793d33;
+    --cream: #b58d69;
+
+}
+
+/*PREREQUISITES*/
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+hr {
+    width: 85%;
+    border-color: var(--lighter-bg-color);
+    transition: 0.4s !important;
+}
+
+.align-right {
+    text-align: right !important;
+}
+
+.align-left {
+    text-align: left !important;
+}
+
+.align-center {
+    text-align: center !important;
+}
+
+.right {
+    float: right !important;
+}
+
+.left {
+    float: left !important;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    opacity: 0.8;
+    transition: 0.25s;
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--secondary-color);
+    opacity: 1;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+/* NAVBAR */
+#fp-nav ul li a span {
+    background-color: var(--five) !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+#fp-nav {
+    z-index: 1 !important;
+}
+
+#fp-nav ul li a.active span {
+    background-color: var(--five) !important;
+}
+
+#fp-nav ul li .fp-tooltip {
+    color: var(--five) !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+#fp-nav ul li:nth-child(6) {
+    display: none;
+}
+
+/*BODY*/
+body{
+    background-color: #000;
+    -webkit-user-select: none;
+}
+
+/*HOME*/
+#home {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow-x: hidden;
+}
+
+#home .logo{
+    height: 40%;
+    width: 100%;
+}
+
+#home::before {
+    position: absolute;
+    background-size: cover;
+    background-position: top;
+    background-image: url(images/top.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    content: "";
+}
+
+#home h1 {
+    font-size: 90px;
+    font-family: 'Lato', sans-serif;
+    color: var(--one);
+    text-align: center;
+    padding-top: 15%;
+}
+
+#home h2 {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--one);
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    #home{
+        background-size: contain;
+        background-position: bottom;
+    }
+    #home h1 {
+        font-size: 60px;
+        padding-top: 50%;
+    }
+    #home h2 {
+        font-size: 25px;
+    }
+}
+
