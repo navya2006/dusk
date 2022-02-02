@@ -111,8 +111,8 @@ body{
 #home::before {
     position: absolute;
     background-size: cover;
-    background-position: top;
-    background-image: url(images/top.png);
+    background-position: center;
+    background-image: url(images/L.png);
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
@@ -142,7 +142,7 @@ body{
     }
     #home h1 {
         font-size: 60px;
-        padding-top: 50%;
+        padding-top: 60%;
     }
     #home h2 {
         font-size: 25px;
