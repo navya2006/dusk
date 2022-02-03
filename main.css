@@ -125,7 +125,7 @@ body{
     font-family: 'Lato', sans-serif;
     color: var(--one);
     text-align: center;
-    padding-top: 15%;
+    padding-top: 50%;
 }
 
 #home h2 {
@@ -135,6 +135,26 @@ body{
     text-align: center;
 }
 
+#home h3{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+ #home .but{
+    color: var(--dark);
+    border: 3px solid #eee;
+    background-color: #eee;
+    margin-top: 2%;
+    padding: 2%;
+    transition: 0.4s;
+  }
+
+#home .but:hover{
+    background-color: transparent;
+    color: #eee;
+}
+
 @media screen and (max-width: 500px) {
     #home{
         background-size: contain;
@@ -142,10 +162,14 @@ body{
     }
     #home h1 {
         font-size: 60px;
-        padding-top: 60%;
+        padding-top: 50%;
     }
     #home h2 {
         font-size: 25px;
     }
 }
 
+/*ABOUT*/
+.about{
+    height: 100%;
+}
