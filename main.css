@@ -13,7 +13,7 @@
     --blue: #164bc2;
     --light: #793d33;
     --cream: #b58d69;
-    --dark: #04050b;
+    --dark: #04050c;
 
     --purple:#7c69bf;
 }
@@ -99,6 +99,8 @@ body{
 
 /*HOME*/
 #home {
+    height: 187%;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.4);
     overflow-x: hidden;
 }
@@ -175,5 +177,37 @@ a.enter {
 }
 
 /*ABOUT*/
-.about{
+.about {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow-x: hidden;
+}
+
+.about::before {
+    position: absolute;
+    background-position: center;
+    background-size: contain;
+    background-image: url(images/planet.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    content: "";
+}
+
+.about h1{
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--one);
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 50%;
+}
+.about p{
+    font-family: 'Poiret One', cursive;
+    font-size: 19px;
+    text-align: center;
+    color: #eee;
+    padding: 10px;
 }
