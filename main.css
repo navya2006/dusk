@@ -94,14 +94,13 @@ html{
 /*BODY*/
 body{
     background-color: var(--dark);
-    -webkit-user-select: none;
 }
 
 /*HOME*/
 #home {
     height: 187%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
     overflow-x: hidden;
 }
 
@@ -150,7 +149,7 @@ a.enter {
     text-align: top;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 2px;
-    padding-top: 140%;
+    padding-top: 135%;
     padding-bottom: 1%;
   }
 
@@ -180,7 +179,7 @@ a.enter {
 .about {
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
     overflow-x: hidden;
 }
 
@@ -206,8 +205,7 @@ a.enter {
 }
 .about p{
     font-family: 'Poiret One', cursive;
-    font-size: 19px;
+    font-size: 21px;
     text-align: center;
     color: #eee;
-    padding: 10px;
 }
