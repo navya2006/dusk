@@ -219,7 +219,7 @@ a.enter {
 
 .gravy img{
     width: 99%;
-    height: 60%;
+    height: 61%;
     opacity: 0.6;
 }
 
@@ -227,7 +227,6 @@ a.enter {
 .video{
     padding-top: 3%;
     width: 100%;
-    padding-bottom: 3%;
 }
 
 .video .light{
@@ -270,6 +269,7 @@ video{
     color: var(--one);
     text-align: left;
     padding-bottom: 1%;
+    padding-top: 12%;
 }
 
 .com p{
@@ -280,6 +280,16 @@ video{
 }
 
 .com img{
+    height: 100%;
+    width: 100%;
+}
+
+.com .tel{
+    height: 40%;
+    width: 100%;
+}
+
+.punk{
     height: 100%;
     width: 100%;
 }
