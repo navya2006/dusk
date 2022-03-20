@@ -1,9 +1,17 @@
-// FULLPAGE
-var myFullpage = new fullpage('#fullpage', {
-    navigation: true,
-    scrollOverflow: true,
-    navigationPosition: 'right',
-    navigationTooltips: ['Home', 'About Spaceffic', 'The Problem', 'Our Solution', 'Teaser',
-     'Our Team'],
-    css3: false
-});
+    // LOADER
+    
+    var myVar;
+    function myFunction() {
+       myVar = setTimeout(showPage, 3000);
+    }
+     
+    function showPage() {
+       document.getElementById("load").style.display = "none";
+       document.getElementById("mainbod").style.display = "block";
+    } 
+
+    //COMMENTING
+function auto_height(elem) {
+    elem.style.height = "2px";
+    elem.style.height = (elem.scrollHeight) + "px";
+}
