@@ -304,6 +304,11 @@ video{
     height: 20%;
 }
 
+.mainbod{
+    display: none;
+}
+
+
 /*FOOTER*/
 /*FOOTER*/
 .footer{
