@@ -277,6 +277,7 @@ video{
     font-size: 20px;
     text-align: left;
     color: #eee;
+    padding-bottom: 2%;
 }
 
 .com img{
@@ -292,4 +293,13 @@ video{
 .punk{
     height: 100%;
     width: 100%;
+}
+
+.blue{
+    width: 100%;
+}
+
+.blue .img{
+    width: 100%;
+    height: 20%;
 }
