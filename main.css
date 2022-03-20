@@ -25,6 +25,17 @@
     box-sizing: border-box;
 }
 
+/*LOAD*/
+.load{
+    background-color: var(--two);
+    overflow: hidden;
+    z-index: 999 !important;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    transition: transform 0.25s;
+}
+
 hr {
     width: 85%;
     border-color: var(--seven);
@@ -308,8 +319,6 @@ video{
     display: none;
 }
 
-
-/*FOOTER*/
 /*FOOTER*/
 .footer{
     background-attachment: fixed;
